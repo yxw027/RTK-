@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\jni",
+    "\\jni\\proj4",
+    "\\jni\\proj4\\src",
+    "\\src",
+    "\\src\\gpsplus"
+  ],
+  "SelectedNode": "\\jni\\proj4\\src\\geodtest.c",
+  "PreviewInSolutionExplorer": false
+}

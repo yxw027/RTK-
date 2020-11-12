@@ -1,0 +1,194 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/geodtest.exe"
+		},
+		{
+			"path" : "bin/geodtest.pdb"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include",
+			"target_link_libraries",
+			"include_directories",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"src/bin_geodtest.cmake",
+			"src/CMakeLists.txt",
+			"CMakeLists.txt",
+			"src/lib_proj.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 155,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 239,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 28,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 244,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /W4 /wd4706 /wd4996 /D_CRT_SECURE_NO_WARNINGS /MDd /Zi /Ob0 /Od /RTC1  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "HAVE_C99_MATH=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "MUTEX_win32"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PROJ_LIB=\"E:/桌面文件/rtkk/master2/RtkGps-master/jni/proj4/out/install/x64-Debug/share\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "E:/桌面文件/rtkk/master2/RtkGps-master/jni/proj4/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "E:/桌面文件/rtkk/master2/RtkGps-master/jni/proj4/out/build/x64-Debug/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "proj::@145eef247bfb46b6828c"
+		}
+	],
+	"id" : "geodtest::@145eef247bfb46b6828c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /W4 /wd4706 /wd4996 /D_CRT_SECURE_NO_WARNINGS /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 setargv.obj /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-LIBPATH:E:\\桌面文件\\rtkk\\master2\\RtkGps-master\\jni\\proj4\\out\\build\\x64-Debug\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "..\\lib\\proj_5_0_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "geodtest",
+	"nameOnDisk" : "geodtest.exe",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\Bin",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/geodtest.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

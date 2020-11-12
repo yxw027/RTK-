@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "任务-RtkGps-master",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "任务-cct",
+      "appliesTo": "jni/proj4/src/cct.c",
+      "type": "launch"
+    }
+  ]
+}

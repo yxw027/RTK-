@@ -1,0 +1,34 @@
+   -------------------- J P R O J . 4 --------------------
+
+This is the second release of JNI wrappers for the main proj4 functions.
+
+PLEASE read the following information.
+
+The first release of JNI wrappers were created by:
+
+                http://www.hydrologis.com
+
+For more information regarding the current release please see the web page at:
+
+                http://www.geoapi.org/geoapi-proj4/
+
+   ---------------------------------------------------
+
+
+What is "Proj.4 wrapper":
+-------------
+
+"Proj.4 wrapper" is a small library of Java classes that wrap a few Proj.4 functions by
+using the Java Native Interface (JNI). The main Java class is org.proj4.PJ.
+
+
+Compilation:
+-------------
+
+To compile the native part, configure has to be run in the proj directory like this:
+
+    CFLAGS=-Iinclude2 ./configure --with-jni=include1
+
+where
+
+    include1 = folder in which the header file jni.h resides (us 

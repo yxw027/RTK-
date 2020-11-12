@@ -1,0 +1,12 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "name": "cct_d.exe (bin\\cct_d.exe)",
+      "project": "jni\\proj4\\CMakeLists.txt",
+      "projectTarget": "cct_d.exe (bin\\cct_d.exe)",
+      "type": "default"
+    }
+  ]
+}

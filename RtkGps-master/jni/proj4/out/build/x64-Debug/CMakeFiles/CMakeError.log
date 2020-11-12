@@ -1,0 +1,106 @@
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: E:/桌面文件/rtkk/master2/RtkGps-master/jni/proj4/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b7ccc && [1/2] Building C object CMakeFiles\cmTC_b7ccc.dir\HAVE_DLFCN_H.c.obj
+FAILED: CMakeFiles/cmTC_b7ccc.dir/HAVE_DLFCN_H.c.obj 
+"E:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 /W4 /wd4706 /wd4996 /D_CRT_SECURE_NO_WARNINGS  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_b7ccc.dir\HAVE_DLFCN_H.c.obj /FdCMakeFiles\cmTC_b7ccc.dir\ /FS -c E:\桌面文件\rtkk\master2\RtkGps-master\jni\proj4\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c
+cl: 命令行 warning D9025 :正在重写“/W3”(用“/W4”)
+E:\桌面文件\rtkk\master2\RtkGps-master\jni\proj4\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c(2): fatal error C1083: 无法打开包括文件: “dlfcn.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(void){return 0;}
+
+Determining if files jni.h exist failed with the following output:
+Change Dir: E:/桌面文件/rtkk/master2/RtkGps-master/jni/proj4/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2f6e5 && [1/2] Building C object CMakeFiles\cmTC_2f6e5.dir\HAVE_JNI_H.c.obj
+FAILED: CMakeFiles/cmTC_2f6e5.dir/HAVE_JNI_H.c.obj 
+"E:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 /W4 /wd4706 /wd4996 /D_CRT_SECURE_NO_WARNINGS  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_2f6e5.dir\HAVE_JNI_H.c.obj /FdCMakeFiles\cmTC_2f6e5.dir\ /FS -c E:\桌面文件\rtkk\master2\RtkGps-master\jni\proj4\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_JNI_H.c
+cl: 命令行 warning D9025 :正在重写“/W3”(用“/W4”)
+E:\桌面文件\rtkk\master2\RtkGps-master\jni\proj4\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_JNI_H.c(2): fatal error C1083: 无法打开包括文件: “jni.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <jni.h>
+
+
+int main(void){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: E:/桌面文件/rtkk/master2/RtkGps-master/jni/proj4/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f431d && [1/2] Building C object CMakeFiles\cmTC_f431d.dir\HAVE_UNISTD_H.c.obj
+FAILED: CMakeFiles/cmTC_f431d.dir/HAVE_UNISTD_H.c.obj 
+"E:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 /W4 /wd4706 /wd4996 /D_CRT_SECURE_NO_WARNINGS  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_f431d.dir\HAVE_UNISTD_H.c.obj /FdCMakeFiles\cmTC_f431d.dir\ /FS -c E:\桌面文件\rtkk\master2\RtkGps-master\jni\proj4\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c
+cl: 命令行 warning D9025 :正在重写“/W3”(用“/W4”)
+E:\桌面文件\rtkk\master2\RtkGps-master\jni\proj4\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if the function ceil exists in the m failed with the following output:
+Change Dir: E:/桌面文件/rtkk/master2/RtkGps-master/jni/proj4/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d492c && [1/2] Building C object CMakeFiles\cmTC_d492c.dir\CheckFunctionExists.c.obj
+cl: 命令行 warning D9025 :正在重写“/W3”(用“/W4”)
+[2/2] Linking C executable cmTC_d492c.exe
+FAILED: cmTC_d492c.exe 
+cmd.exe /C "cd . && "E:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_d492c.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\mt.exe --manifests  -- "E:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\bin\Hostx64\x64\link.exe" /nologo CMakeFiles\cmTC_d492c.dir\CheckFunctionExists.c.obj  /out:cmTC_d492c.exe /implib:cmTC_d492c.lib /pdb:cmTC_d492c.pdb /version:0.0  /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "E:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_d492c.dir\CheckFunctionExists.c.obj /out:cmTC_d492c.exe /implib:cmTC_d492c.lib /pdb:cmTC_d492c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_d492c.dir/intermediate.manifest CMakeFiles\cmTC_d492c.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: 无法打开文件“m.lib”
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: E:/桌面文件/rtkk/master2/RtkGps-master/jni/proj4/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_14fa5 && [1/2] Building C object CMakeFiles\cmTC_14fa5.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_14fa5.dir/CheckIncludeFile.c.obj 
+"E:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 /W4 /wd4706 /wd4996 /D_CRT_SECURE_NO_WARNINGS  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_14fa5.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_14fa5.dir\ /FS -c CheckIncludeFile.c
+cl: 命令行 warning D9025 :正在重写“/W3”(用“/W4”)
+CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the PTHREAD_MUTEX_RECURSIVE exist failed with the following output:
+Change Dir: E:/桌面文件/rtkk/master2/RtkGps-master/jni/proj4/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_3811b && [1/2] Building C object CMakeFiles\cmTC_3811b.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_3811b.dir/CheckSymbolExists.c.obj 
+"E:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 /W4 /wd4706 /wd4996 /D_CRT_SECURE_NO_WARNINGS  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_3811b.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_3811b.dir\ /FS -c CheckSymbolExists.c
+cl: 命令行 warning D9025 :正在重写“/W3”(用“/W4”)
+CheckSymbolExists.c(2): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+File E:/桌面文件/rtkk/master2/RtkGps-master/jni/proj4/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PTHREAD_MUTEX_RECURSIVE
+  return ((int*)(&PTHREAD_MUTEX_RECURSIVE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
